@@ -1,20 +1,25 @@
 # 🔬 Adaptive Language Modeling for STEM Education
+Project Overview
+```
+This project develops an adaptive language model tailored for STEM education, enhancing learning experiences through personalized content generation and assessment. Key features include:
 
-<div align="center">
-  <img src="assets/stem-banner.png" alt="STEM QA Banner" width="800">
-  
-  ![GitHub last commit](https://img.shields.io/github/last-commit/uditnegi16/Adaptive-Language-Modeling-for-STEM-Education)
-  ![GitHub repo size](https://img.shields.io/github/repo-size/uditnegi16/Adaptive-Language-Modeling-for-STEM-Education)
-  ![License](https://img.shields.io/badge/License-MIT-blue.svg)
-</div>
+Fine-tuned LLMs: Domain-specific language models for STEM subjects (Math, Physics, CS).
 
+Adaptive Learning: Dynamically adjusts content difficulty based on student interactions.
+
+Educational Q&A: AI-powered explanations and problem-solving support.
+
+Integration: Deployable via APIs for LMS (Learning Management Systems) or chatbots.
+```
 ## 🚀 Features
+```
 - **Fine-tuned GPT-2 Medium** for Physics & Mathematics
 - **Efficient Training**: LoRA & QLoRA adapters (4-bit quantization)
 - **High Accuracy**: 78% exact match on test sets
 - **Ready-to-use** inference API
-
+```
 ## 📂 Repository Contents
+```
 Adaptive-Language-Modeling-for-STEM-Education/
 ├── models/ # Pretrained model weights
 │ ├── physics_lora/ # Physics LoRA adapter
@@ -27,7 +32,7 @@ Adaptive-Language-Modeling-for-STEM-Education/
 ├── Physics_QLORA.ipynb # Physics demo
 └── Math_QLORA.ipynb # Math 
 ├── Physics_LORA.ipynb # Physics demo 
-
+```
 ## 🛠️ Installation
 ```markdown
 # Clone with Git LFS (for model weights)
